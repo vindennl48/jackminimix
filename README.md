@@ -20,7 +20,7 @@ Channels numbers range from 1 to the total number of channels. Gains are in floa
     /mixer/channel_count (i)
 
     /mixer/channel/set_gain (if)    - Set the gain of channel i to f dB
-     replies with:
+     replies with:                    if i==0 then set the gain of master
     /mixer/channel/gain (if)
 
     /mixer/channel/set_label (is)   - Set the label of channel i to s
